@@ -1,0 +1,19 @@
+#####################################
+# File with all my aliases
+#####################################
+
+# Tools
+alias cheatsheet-show="cat /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv | column -s $'\t' -t"
+alias cheatsheet-edit="vim /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv"
+alias diff='colordiff'
+alias h='function _h(){ if [[ $# > 0 ]]; then history | grep $1; else history; fi;};_h'
+alias v='vim'
+
+# Edit dotfiles easily
+alias vimrc-edit='vim ~/.vimrc'
+alias alias-edit='vim ~/.bash/alias'
+alias bp-edit='vim ~/.bash_profile'
+alias bp-reload='source ~/.bash_profile'
+
+# Network
+alias header='curl -I'
