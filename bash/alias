@@ -9,6 +9,10 @@ alias diff='colordiff'
 alias h='function _h(){ if [[ $# > 0 ]]; then history | grep $1; else history; fi;};_h'
 alias v='vim'
 
+# Misspell
+alias gerp="grep"
+alias grpe="grep"
+
 # Edit dotfiles easily
 alias vimrc-edit='vim ~/.vimrc'
 alias alias-edit='vim ~/.bash/alias'
