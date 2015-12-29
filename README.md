@@ -6,7 +6,9 @@ My Bash profile and associated dotfiles
 
 ## Configure
 
-Edit ~/.custom_bash/priv/main to add your priv aliases
+Edit ~/.custom_bash/priv/main to add your priv aliases:
+
+    vim ~/.custom_bash/priv/main
 
 Add the following to your bashrc/bash_profile:
 
