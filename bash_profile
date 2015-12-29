@@ -28,3 +28,7 @@ source $HOME/.bash/kimsufi
 
 # Go (golang) related
 source $HOME/.bash/go
+
+# Tmuxinator
+source $HOME/.tmuxinator/tmuxinator.bash
+mux start default
