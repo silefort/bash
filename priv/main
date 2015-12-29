@@ -4,7 +4,7 @@
 ###################################
 
 # AWS related (priv)
-source $HOME/.custom_bash/priv/vmscotty
+# source $HOME/.custom_bash/priv/vmscotty.priv
 
 # Kimsufi related (priv)
-source $HOME/.custom_bash/priv/kimsufi
+# source $HOME/.custom_bash/priv/kimsufi.priv
