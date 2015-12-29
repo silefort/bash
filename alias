@@ -4,10 +4,10 @@
 
 # Tools
 alias cheatsheet-show="cat /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv | column -s $'\t' -t"
-alias cheatsheet-edit="vim /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv"
+alias cheatsheet-edit="v /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv"
 alias diff='colordiff'
 alias h='function _h(){ if [[ $# > 0 ]]; then history | grep $1; else history; fi;};_h'
-alias p="vim $HOME/Google\ Drive/Notes/postit.txt"
+alias p="v $HOME/Google\ Drive/Notes/postit.txt"
 alias v='vim -Nu ~/.custom_vim/vimrc'
 
 # Misspell
@@ -15,9 +15,9 @@ alias gerp="grep"
 alias grpe="grep"
 
 # Edit dotfiles easily
-alias vimrc-edit='vim ~/.vimrc'
-alias alias-edit='vim ~/.bash/alias'
-alias bp-edit='vim ~/.bash_profile'
+alias vimrc-edit='v ~/.custom_vim/vimrc'
+alias alias-edit='v ~/.custom_bash/alias'
+alias bp-edit='v ~/.bash_profile'
 alias bp-reload='source ~/.bash_profile'
 
 # Network
