@@ -1,0 +1,20 @@
+###################################
+# Custom file including all my 
+# aliases and custom functions
+###################################
+
+# Tools
+source $HOME/.custom_bash/alias
+
+# AWS related (priv)
+source $HOME/.custom_bash/priv/vmscotty
+
+# Kimsufi related (priv)
+source $HOME/.custom_bash/priv/kimsufi
+
+# Go (golang) related
+source $HOME/.custom_bash/go
+
+# Tmuxinator
+source $HOME/.tmuxinator/tmuxinator.bash
+mux start default
