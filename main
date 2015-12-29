@@ -13,12 +13,6 @@ source $HOME/.custom_bash/go
 ## Priv: things I can't share on github
 source $HOME/.custom_bash/priv/main
 
-# AWS related (priv)
-source $HOME/.custom_bash/priv/vmscotty
-
-# Kimsufi related (priv)
-source $HOME/.custom_bash/priv/kimsufi
-
 ## Local: Add here stuffs local to a specific machine
 
 # Tmuxinator
