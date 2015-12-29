@@ -3,8 +3,14 @@
 # aliases and custom functions
 ###################################
 
+## Public: things I can share on github
 # Tools
 source $HOME/.custom_bash/alias
+
+# Go (golang) related
+source $HOME/.custom_bash/go
+
+## Priv: things I can't share on github
 
 # AWS related (priv)
 source $HOME/.custom_bash/priv/vmscotty
@@ -12,8 +18,7 @@ source $HOME/.custom_bash/priv/vmscotty
 # Kimsufi related (priv)
 source $HOME/.custom_bash/priv/kimsufi
 
-# Go (golang) related
-source $HOME/.custom_bash/go
+## Local: Add here stuffs local to a specific machine
 
 # Tmuxinator
 source $HOME/.tmuxinator/tmuxinator.bash
