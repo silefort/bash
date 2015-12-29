@@ -7,6 +7,7 @@ alias cheatsheet-show="cat /Users/simonlefort/Google\ Drive/Dev/commandlinetips.
 alias cheatsheet-edit="vim /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv"
 alias diff='colordiff'
 alias h='function _h(){ if [[ $# > 0 ]]; then history | grep $1; else history; fi;};_h'
+alias p="vim $HOME/Google\ Drive/Notes/postit.txt"
 alias v='vim'
 
 # Misspell
