@@ -11,6 +11,7 @@ source $HOME/.custom_bash/alias
 source $HOME/.custom_bash/go
 
 ## Priv: things I can't share on github
+source $HOME/.custom_bash/priv/main
 
 # AWS related (priv)
 source $HOME/.custom_bash/priv/vmscotty

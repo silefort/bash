@@ -1,0 +1,10 @@
+###################################
+# Custom file including all my 
+# aliases and custom functions
+###################################
+
+# AWS related (priv)
+source $HOME/.custom_bash/priv/vmscotty
+
+# Kimsufi related (priv)
+source $HOME/.custom_bash/priv/kimsufi
