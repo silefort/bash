@@ -13,8 +13,6 @@ source $HOME/.custom_bash/go
 ## Priv: things I can't share on github
 source $HOME/.custom_bash/priv/main
 
-## Local: Add here stuffs local to a specific machine
-
-# Tmuxinator
-source $HOME/.tmuxinator/tmuxinator.bash
-mux start default
+## Local: stuffs local to the current machine
+## tmuxinator setup, specific aliases...
+source $HOME/.custom_bash/local

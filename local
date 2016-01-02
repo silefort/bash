@@ -1,0 +1,7 @@
+###################################
+# Local and specifi aliases
+###################################
+
+# Tmuxinator
+# source $HOME/.tmuxinator/tmuxinator.bash
+# mux start default
