@@ -3,11 +3,17 @@
 #####################################
 
 # Tools
+alias ..='cd ..'
+alias archive='tar -cvzf '
+alias back='cd $OLDPWD'
 alias cheatsheet-show="cat /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv | column -s $'\t' -t"
 alias cheatsheet-edit="v /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv"
 alias diff='colordiff'
 alias h='function _h(){ if [[ $# > 0 ]]; then history | grep $1; else history; fi;};_h'
+alias ls='ls -lha'
+alias myip='curl http://ipecho.net/plain; echo'
 alias p="v $HOME/Google\ Drive/Notes/postit.txt"
+alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
 alias v='vim -Nu ~/.custom_vim/vimrc'
 
 # Misspell
@@ -22,3 +28,28 @@ alias bp-reload='source ~/.bash_profile'
 
 # Network
 alias header='curl -I'
+
+# Archives
+function extract {
+  if [ -z "$1" ]; then
+    echo "Usage: extract <path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz>"
+  else
+    if [ -f $1 ]; then
+      case $1 in
+        *.tar.bz2)   tar xvjf $1    ;;
+        *.tar.gz)    tar xvzf $1    ;;
+        *.tar.xz)    tar xvJf $1    ;;
+        *.gz)        gunzip $1      ;;
+        *.tar)       tar xvf $1     ;;
+        *.tbz2)      tar xvjf $1    ;;
+        *.tgz)       tar xvzf $1    ;;
+        *.zip)       unzip $1       ;;
+        *)           echo "extract: '$1' - unknown archive method" ;;
+      esac
+    else
+      echo "$1 - file does not exist"
+    fi
+  fi
+}
+
+# history | awk '{CMD[$2]++;count++;}END { for (a in CMD)print CMD[a] " " CMD[a]/count*100 "% " a;}' | grep -v "./" | column -c3 -s " " -t | sort -nr | nl |  head -n10
