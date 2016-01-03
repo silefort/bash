@@ -10,6 +10,7 @@ alias cheatsheet-show="cat /Users/simonlefort/Google\ Drive/Dev/commandlinetips.
 alias cheatsheet-edit="v /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv"
 alias diff='colordiff'
 alias h='function _h(){ if [[ $# > 0 ]]; then history | grep $1; else history; fi;};_h'
+alias jedit='jrnl -from yesterday --edit'
 alias ls='ls -lha'
 alias myip='curl http://ipecho.net/plain; echo'
 alias p="v $HOME/Google\ Drive/Notes/postit.txt"
