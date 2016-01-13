@@ -3,6 +3,9 @@
 # aliases and custom functions
 ###################################
 
+## Default Editor is my custom vim
+export EDITOR='vim -Nu ~/.custom_vim/vimrc'
+
 ## Public: things I can share on github
 # Tools
 source $HOME/.custom_bash/alias
