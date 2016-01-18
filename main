@@ -13,6 +13,9 @@ source $HOME/.custom_bash/alias
 # Go (golang) related
 source $HOME/.custom_bash/go
 
+# Docker related
+source $HOME/.custom_bash/docker
+
 ## Priv: things I can't share on github
 source $HOME/.custom_bash/priv/main
 
