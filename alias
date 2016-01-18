@@ -9,6 +9,7 @@ alias back='cd $OLDPWD'
 alias cheatsheet-show="cat /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv | column -s $'\t' -t"
 alias cheatsheet-edit="v /Users/simonlefort/Google\ Drive/Dev/commandlinetips.csv"
 alias diff='colordiff'
+alias drive='cd ~/Google\ Drive/'
 alias h='function _h(){ if [[ $# > 0 ]]; then history | grep $1; else history; fi;};_h'
 alias jedit='jrnl < ~/Google\ Drive/Notes/template.txt ; jrnl -1 --edit '
 alias ls='ls -lha'
