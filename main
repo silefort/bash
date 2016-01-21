@@ -6,7 +6,10 @@
 ## Default Editor is my custom vim
 export EDITOR='vim -Nu ~/.custom_vim/vimrc'
 
-## Public: things I can share on github
+## Add ~/bin to our path
+PATH="~/.custom_bin:${PATH}"
+export PATH
+
 # Tools
 source $HOME/.custom_bash/alias
 
