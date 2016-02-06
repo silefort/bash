@@ -3,8 +3,5 @@
 # priv aliases and custom functions
 ###################################
 
-# AWS related (priv)
-# source $HOME/.custom_bash/priv/vmscotty.priv
-
-# Kimsufi related (priv)
-# source $HOME/.custom_bash/priv/kimsufi.priv
+# Source all .priv files
+source $HOME/.custom_bash/priv/*.priv

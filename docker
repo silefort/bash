@@ -5,3 +5,5 @@
 alias dkbld='function _dkbld(){ docker build -t $1 .;};_dkbld'
 alias dkexe='function _dkexe(){ docker exec -ti $1 bash -l;};_dkexe'
 alias dklog='function _dklog(){ docker logs -f $1;};_dklog'
+alias dkrmia='docker rmi -f $(docker images -q)'
+alias dkrma='docker rm docker rm -f $(docker ps -a -q)'
