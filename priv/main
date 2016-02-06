@@ -3,5 +3,5 @@
 # priv aliases and custom functions
 ###################################
 
-# Kimsufi related (priv)
-# source $HOME/.custom_bash/priv/kimsufi.priv
+# Source all .priv files
+source $HOME/.custom_bash/priv/*.priv
