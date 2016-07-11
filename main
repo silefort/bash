@@ -10,8 +10,11 @@ export EDITOR='vim -Nu ~/.custom_vim/vimrc'
 PATH="~/.custom_bin:${PATH}"
 export PATH
 
-# Tools
+# Aliases
 source $HOME/.custom_bash/alias
+
+# Tools
+source $HOME/.custom_bash/tools
 
 # Go (golang) related
 source $HOME/.custom_bash/go
