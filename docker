@@ -3,7 +3,6 @@
 #####################################
 
 alias dkbld='function _dkbld(){ docker build -t $1 .;};_dkbld'
-alias dkexe='function _dkexe(){ docker exec -ti $1 bash -l;};_dkexe'
 alias dklog='function _dklog(){ docker logs -f $1;};_dklog'
 alias dkrmia='docker rmi -f $(docker images -q)'
 alias dkrma='docker rm docker rm -f $(docker ps -a -q)'
@@ -12,3 +11,12 @@ alias dki='docker images'
 alias dkstop='function _dkstop(){ docker stop $1;};_dkstop'
 alias dkrm='function _dkrm(){ echo "docker stop"; docker stop $1;echo "docker rm"; docker rm $1;};_dkrm'
 alias dkvol='function _dkvol(){ docker inspect $1 | grep -A1 Source;};_dkvol'
+
+function _dkexe() {
+    cont=`docker ps | grep $1 | awk '{ print $NF }'`
+    echo $cont
+    docker exec -ti $cont bash -l
+}
+alias dkexe='_dkexe'
+
+
