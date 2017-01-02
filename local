@@ -2,10 +2,3 @@
 # Local and specific aliases
 ###################################
 
-# Tmuxinator (only if osx)
-platform=`uname`
-if [[ $platform == 'Darwin' ]]; then
-    source $HOME/.tmuxinator/tmuxinator.bash
-    mux start default
-fi
-
