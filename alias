@@ -14,13 +14,12 @@ alias drive='cd ~/Google\ Drive/'
 alias h='function _h(){ if [[ $# > 0 ]]; then history | grep $1; else history; fi;};_h'
 alias ls='ls -lh'
 alias mp3sync='droidsync Phone News "Loved Tracks" ~/Google\ Drive/DroidSync'
+alias mux='tmux -f ~/.custom_tmux/tmux.conf new-session -A -s main'
 alias myip='curl http://ipecho.net/plain; echo'
 alias myconnection='whois $(myip)'
 alias p="v $HOME/Google\ Drive/Notes/postit.txt"
 alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
-alias mux='tmux -f ~/custom_tmux/tmux.conf new'
 alias toc="grep -E '^ *#+ '"
-alias mux='tmux -f ~/.custom_tmux/tmux.conf new-session -A -s main'
 alias vim='/usr/local/bin/vim'
 alias v='vim -Nu ~/.custom_vim/vimrc'
 
