@@ -3,6 +3,7 @@ My Bash profile and associated dotfiles
 
 ## Install
     git clone git@github.com:silefort/bash.git ~/.custom_bash
+    git clone https://github.com/rupa/z.git ~/.custom_bash/z
 
 ## Configure
 

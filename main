@@ -28,3 +28,5 @@ source $HOME/.custom_bash/priv/main
 ## Local: stuffs local to the current machine
 ## tmuxinator setup, specific aliases...
 source $HOME/.custom_bash/local
+
+. $HOME/.custom_bash/z/z.sh
