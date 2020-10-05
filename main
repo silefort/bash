@@ -24,6 +24,10 @@ source $HOME/.custom_bash/go
 # Docker related
 source $HOME/.custom_bash/docker
 
+# Python related
+source $HOME/.custom_bash/python
+source ~/.local/bin/virtualenvwrapper.sh
+
 ## Priv: things I can't share on github
 source $HOME/.custom_bash/priv/main
 
@@ -31,4 +35,4 @@ source $HOME/.custom_bash/priv/main
 ## tmuxinator setup, specific aliases...
 source $HOME/.custom_bash/local
 
-. $HOME/.custom_bash/z/z.sh
+#. $HOME/.custom_bash/z/z.sh

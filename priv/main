@@ -4,4 +4,4 @@
 ###################################
 
 # Source all .priv files
-source $HOME/.custom_bash/priv/*.priv
+#source $HOME/.custom_bash/priv/*.priv
