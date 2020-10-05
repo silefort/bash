@@ -6,8 +6,10 @@
 ## Default Editor is my custom vim
 export EDITOR='vim -Nu ~/.custom_vim/vimrc'
 
-## Add ~/bin to our path
+## Add ~/bin and pyenv setup to our path
 PATH="~/.custom_bin:${PATH}"
+PATH="$(pyenv root)/shims:${PATH}"
+PATH="~/.local/bin:${PATH}"
 export PATH
 
 # Aliases
