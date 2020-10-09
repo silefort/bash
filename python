@@ -1,0 +1,6 @@
+#####################################
+# Python associated 
+#####################################
+
+source ~/.local/bin/virtualenvwrapper.sh
+export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv

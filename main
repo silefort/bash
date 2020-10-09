@@ -35,4 +35,5 @@ source $HOME/.custom_bash/priv/main
 ## tmuxinator setup, specific aliases...
 source $HOME/.custom_bash/local
 
-#. $HOME/.custom_bash/z/z.sh
+# Z.sh
+. $HOME/.custom_bash/scripts/z.sh
