@@ -2,5 +2,7 @@
 # Python associated 
 #####################################
 
+export WORKON_HOME=~/.virtualenvs
+mkdir -p $WORKON_HOME
 source ~/.local/bin/virtualenvwrapper.sh
 export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
