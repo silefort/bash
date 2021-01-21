@@ -16,7 +16,7 @@ alias h='function _h(){ if [[ $# > 0 ]]; then history | grep $1; else history; f
 alias hosts='cat /etc/hosts'
 alias glo="git log --graph --decorate --abbrev-commit --pretty=oneline"
 alias j='joplin sync; joplin'
-alias jn='~/Google\ Drive/Jrnl/script.sh && jrnl -1 --edit'
+alias jn='~/Google\ Drive/Jrnl/script.sh && jrnl -2 --edit'
 alias jw='jrnl < ~/Google\ Drive/Jrnl/weekly.txt && jrnl -1 --edit'
 alias ls='ls -lht'
 alias lt='du -sh * | sort -h'
