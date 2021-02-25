@@ -4,3 +4,7 @@
 
 # Make Ctrl+s act as a reverse Ctrl+r on i-searches
 [[ $- == *i* ]] && stty -ixon
+
+# 'ctrl + z' bind to 'fg' command (invisible mode)
+stty susp undef
+bind -x '"\C-z":"fg >/dev/null 2>&1"'
