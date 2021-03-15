@@ -32,6 +32,7 @@ alias toc="grep -E '^ *#+ '"
 alias trash='mv -t ~/.Trash/ '
 alias vim='/usr/local/bin/vim'
 alias v='vim -Nu ~/.custom_vim/vimrc'
+alias zk='cd ~/Git/zk && v index.wiki'
 
 # Misspell
 alias gerp="grep"
