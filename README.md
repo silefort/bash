@@ -7,6 +7,11 @@ My Bash profile and associated dotfiles
 
 ## Configure
 
+The way it works on macOS is :
+* ~/.bash_profile is sourced
+* ~/.bashrc is sourced
+* ~/.custom_bash/main is sourced (and all the files linked to this file)
+
 Edit ~/.custom_bash/priv/main to add your priv aliases:
 
     vim ~/.custom_bash/priv/main
